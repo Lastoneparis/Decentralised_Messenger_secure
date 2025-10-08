@@ -1,11 +1,11 @@
 # Decentralised_Messenger_secure
-IHSOTAHS is **100% open source**, built with transparency and auditability at its core. Every line of code is public and verifiable.
+OSHI is **100% open source**, built with transparency and auditability at its core. Every line of code is public and verifiable.
 
-IHSOTAHS - The Sovereign Messenger
+OSHI - The Sovereign Messenger
 
 Decentralized, end-to-end encrypted messaging without servers
 
-IHSOTAHS is a proof-of-concept secure messenger that works offline using peer-to-peer mesh networking. Built on principles of digital sovereignty, privacy, and resilience.
+OSHI is a proof-of-concept secure messenger that works offline using peer-to-peer mesh networking. Built on principles of digital sovereignty, privacy, and resilience.
 
 🔐 Security Features
 
