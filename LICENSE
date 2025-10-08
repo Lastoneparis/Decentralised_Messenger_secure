@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 Lastoneparis
+Copyright (c) 2025 IHSOTAHS Project Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,239 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## ADDITIONAL DISCLAIMERS
+
+### SECURITY AND PRIVACY DISCLAIMER
+
+This software implements advanced cryptographic functionality including:
+- Signal Double Ratchet Protocol for end-to-end encryption
+- X3DH key agreement protocol
+- AES-256-GCM authenticated encryption
+- Elliptic curve cryptography (secp256k1, Ed25519)
+- Peer-to-peer mesh networking
+- Decentralized message routing
+
+While **significant care** has been taken to follow cryptographic best practices
+and industry standards:
+
+1. **EXPERIMENTAL SOFTWARE**: This software is experimental and has not undergone
+   formal third-party security audit or penetration testing.
+
+2. **NO SECURITY GUARANTEE**: No warranty of security, privacy, anonymity, or
+   protection against surveillance is provided or implied.
+
+3. **USE AT YOUR OWN RISK**: Users assume all risks associated with using this
+   software for sensitive, confidential, or critical communications.
+
+4. **NOT FOR HIGH-RISK USE**: This software is NOT recommended for:
+   - Life-threatening situations
+   - Protection against nation-state adversaries
+   - Critical infrastructure communications
+   - Legal proceedings requiring certified secure communications
+   - Any scenario where communication failure could cause serious harm
+
+5. **KEY MANAGEMENT**: Users are solely responsible for:
+   - Securing and backing up their cryptographic keys
+   - Understanding that loss of keys results in permanent, irreversible loss of
+     access to encrypted messages
+   - Protecting their devices from unauthorized access
+   - Maintaining operational security practices
+
+6. **NETWORK SECURITY**: Mesh networking and peer-to-peer connections may expose:
+   - Device presence and availability to nearby peers
+   - Approximate geographic location through Bluetooth/WiFi discovery
+   - Network traffic patterns to local network observers
+
+7. **METADATA**: While message content is encrypted:
+   - Timing of messages may be observable
+   - Connection patterns between peers may be visible
+   - IPFS fallback may expose some message routing metadata
+
+8. **NO LIABILITY**: The developers, contributors, and maintainers are not
+   responsible for any damages, losses, legal consequences, or security breaches
+   resulting from the use of this software.
+
+### CRYPTOGRAPHY NOTICE
+
+This software contains cryptographic functionality that may be subject to legal
+restrictions in certain jurisdictions:
+
+1. **EXPORT CONTROL**: This software may be subject to export control laws in
+   various countries, including but not limited to the United States Export
+   Administration Regulations (EAR) and similar regulations in other jurisdictions.
+
+2. **IMPORT RESTRICTIONS**: Some countries restrict the import, possession, use,
+   and/or re-export of encryption software. BEFORE using any encryption software,
+   users MUST check their country's laws, regulations, and policies.
+
+3. **USER RESPONSIBILITY**: Users are solely responsible for:
+   - Compliance with all applicable export control laws and regulations
+   - Ensuring legal use in their jurisdiction
+   - Obtaining necessary licenses or approvals
+   - Understanding local restrictions on cryptographic software
+
+4. **RESTRICTED COUNTRIES**: Users in countries with strict cryptographic
+   controls (including but not limited to China, Russia, Belarus, Iran, North
+   Korea, Syria, Cuba) should consult legal counsel before using this software.
+
+### LEGAL COMPLIANCE
+
+1. **LAWFUL USE**: This software is intended for lawful use only. Users must
+   comply with all applicable laws and regulations in their jurisdiction.
+
+2. **PROHIBITED USES**: This software must NOT be used for:
+   - Illegal activities or criminal conspiracy
+   - Terrorist communications or planning
+   - Human trafficking or exploitation
+   - Drug trafficking or illegal commerce
+   - Child exploitation or abuse
+   - Violation of sanctions or embargoes
+   - Any activity prohibited by applicable law
+
+3. **TERMS OF SERVICE**: When using IPFS/Pinata cloud fallback features, users
+   must comply with those services' terms of service and acceptable use policies.
+
+4. **INTELLECTUAL PROPERTY**: Users must respect intellectual property rights
+   and not use this software to infringe on copyrights, trademarks, patents,
+   or trade secrets.
+
+### TECHNICAL LIMITATIONS
+
+1. **MESH NETWORKING**:
+   - Requires physical proximity (Bluetooth range ~30-100m)
+   - Dependent on peer availability
+   - May experience delays in multi-hop routing
+   - Not guaranteed to be available or reliable
+
+2. **OFFLINE FUNCTIONALITY**:
+   - Messages may be delayed or fail to deliver
+   - Recipient must eventually come online to receive messages
+   - No guarantee of message delivery
+
+3. **IPFS FALLBACK**:
+   - Dependent on third-party infrastructure
+   - May incur storage costs
+   - Subject to IPFS network availability
+   - Not truly peer-to-peer when fallback is used
+
+4. **BATTERY AND PERFORMANCE**:
+   - Mesh networking may significantly impact battery life
+   - Background scanning and message checking consume resources
+   - Large media files may cause performance issues
+
+5. **COMPATIBILITY**:
+   - iOS 15.0 or later required
+   - May not work on older devices
+   - Future OS updates may break functionality
+
+### PRIVACY CONSIDERATIONS
+
+While IHSOTAHS is designed with privacy in mind:
+
+1. **DEVICE ACCESS**: The app requires access to:
+   - Camera (for QR scanning and media)
+   - Photos (for media sharing)
+   - Bluetooth (for mesh networking)
+   - Local Network (for WiFi Direct)
+
+2. **DATA STORAGE**: Encrypted messages are stored locally on device
+
+3. **CLOUD BACKUP**: Users should be aware that device cloud backups (iCloud)
+   may include message data
+
+4. **PEER DISCOVERY**: Using mesh networking makes your device discoverable
+   to nearby peers
+
+5. **NO ANONYMITY GUARANTEE**: While the app doesn't collect personal data,
+   perfect anonymity is not guaranteed
+
+### OPEN SOURCE TRANSPARENCY
+
+This software is open source to enable:
+- Community security review
+- Independent verification of cryptographic implementation
+- Transparency in functionality
+- User trust through auditability
+
+However:
+- Open source does NOT guarantee security
+- Code review by users is encouraged but not guaranteed
+- Vulnerabilities may exist and be discovered over time
+- Users should stay updated with latest security releases
+
+### UPDATES AND MAINTENANCE
+
+1. **NO GUARANTEE OF UPDATES**: The maintainers are not obligated to provide
+   updates, bug fixes, or security patches.
+
+2. **DEPRECATED FEATURES**: Features may be removed or changed without notice.
+
+3. **BREAKING CHANGES**: Updates may not be backward compatible.
+
+4. **USER RESPONSIBILITY**: Users must monitor for updates and security advisories.
+
+### DISCLAIMER OF WARRANTY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THIS SOFTWARE IS PROVIDED
+"AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING,
+BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE SOFTWARE IS WITH YOU.
+SHOULD THE SOFTWARE PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY
+SERVICING, REPAIR, OR CORRECTION.
+
+### LIMITATION OF LIABILITY
+
+IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW WILL ANY COPYRIGHT HOLDER, OR
+ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE SOFTWARE AS PERMITTED ABOVE,
+BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL, OR
+CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE SOFTWARE
+(INCLUDING BUT NOT LIMITED TO LOSS OF DATA, DATA BEING RENDERED INACCURATE,
+LOSSES SUSTAINED BY YOU OR THIRD PARTIES, FAILURE OF THE SOFTWARE TO OPERATE
+WITH ANY OTHER PROGRAMS, SECURITY BREACHES, PRIVACY VIOLATIONS, OR LEGAL
+CONSEQUENCES), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+
+---
+
+## ACKNOWLEDGMENTS
+
+This software builds upon and is inspired by:
+- Signal Protocol (Double Ratchet, X3DH)
+- IPFS (InterPlanetary File System)
+- Ethereum and Solana cryptographic standards
+- Apple's CryptoKit framework
+- The broader open-source cryptography community
+
+We are grateful to the researchers, developers, and security experts who have
+contributed to the field of secure communications.
+
+---
+
+## CONTACT AND REPORTING
+
+For security vulnerabilities, please report responsibly via:
+- GitHub Security Advisories
+- Project maintainer contact (see repository)
+
+DO NOT publicly disclose security vulnerabilities until they have been addressed.
+
+---
+
+## ACCEPTANCE
+
+BY USING THIS SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS LICENSE AND
+ALL DISCLAIMERS, UNDERSTAND THEM, AND AGREE TO BE BOUND BY THEIR TERMS.
+
+IF YOU DO NOT AGREE WITH THESE TERMS, DO NOT USE THIS SOFTWARE.
+
+---
+
+**Last Updated**: October 2025
+**Project**: IHSOTAHS - The Sovereign Messenger
+**License**: MIT with Additional Disclaimers
+**Version**: 1.0.0
